@@ -11,3 +11,28 @@
  *= require_self
  *= require_tree .
  */
+
+html {
+	height: 100%;
+}
+body {
+	height:  100%;
+	margin:  0;
+	padding: 0;
+}
+
+#left_panel {
+	height:       96%;
+	width:        19%;
+	margin:       2% 0;
+	padding:      0 3%;
+	border-right: 1px solid #ccc;
+}
+
+#profile_photo {
+	height:        260px;
+	width:         260px;
+	border:        2px solid #FFF;
+	border-radius: 50%;
+	box-shadow:    1px 1px 10px #666;
+}
