@@ -28,6 +28,8 @@ h2, h4 {
 #left_panel {
 	height:       93%;
 	width:        17.5%;
+	max-width:    400px;
+	min-width:    200px;
 	margin:       2% 0;
 	padding:      0 3% 0 2%;
 	border-right: 1px solid #ccc;
@@ -35,8 +37,7 @@ h2, h4 {
 }
 
 #profile_photo {
-	height:     260px;
-	width:      260px;
+	width:      100%;
 	border:     2px solid #fff;
 	box-shadow: 1px 1px 10px #666;
 }
@@ -46,12 +47,18 @@ h2, h4 {
 	padding: 0;
 }
 
+#social_container {
+	height:        40px;
+	margin-bottom: 5px;
+	position:      relative;
+}
+
 .social_link {
 	height: 40px;
 	width: 40px;
 }
 .social_edito {
-	bottom:      3px;
+	bottom:      0;
 	margin-left: 50px;
 	font-size:   14px;
 	color:       #ccc;
