@@ -22,17 +22,22 @@ body {
 }
 
 #left_panel {
-	height:       96%;
-	width:        19%;
-	margin:       2% 0;
-	padding:      0 3%;
+	height:       93%;
+	width:        17.5%;
+	margin:       1% 0;
+	padding:      0 3% 0 2%;
 	border-right: 1px solid #ccc;
+	position:     fixed;
 }
 
 #profile_photo {
-	height:        260px;
-	width:         260px;
-	border:        2px solid #FFF;
-	border-radius: 50%;
-	box-shadow:    1px 1px 10px #666;
+	height:     260px;
+	width:      260px;
+	border:     2px solid #FFF;
+	box-shadow: 1px 1px 10px #666;
+}
+
+#main_view {
+	height:      2000px;
+	margin-left: 24.5%;
 }
