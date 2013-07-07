@@ -1,4 +1,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-//= require ./home.js.erb
+//= require ./home.js
