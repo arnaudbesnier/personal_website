@@ -1,8 +1,5 @@
-<div style='height: 45px;position: relative;'>
+<%= tag(:div, id: "#{name}_social_container", class: 'social_container') %>
 	<a href='<%= "#{url}" %>' target='_blank' style='float: left;'>
-		<%= tag(:img, id: "#{name}_link", class: 'social_link', alt: alt, src: asset_path("social_networks/#{name}.png")) %>
+		<%= tag(:img, id: "#{name}_link", class: 'social_link', alt: alt, src: asset_path("social_networks/#{name}_off.png")) %>
 	</a>
-	<div class='social_edito'>
-		<%= edito %>
-	</div>
 </div>

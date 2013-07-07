@@ -24,6 +24,48 @@ body {
 h2, h4 {
 	color: #666;
 }
+h2 {
+	margin-bottom:  0;
+	padding-bottom: 0;
+}
+h4 {
+	font-weight: normal;
+	margin-top:  0;
+	padding-top: 0;
+}
+
+#menu_bar {
+    top:         0;
+    left:        0;
+    height:      45px;
+    width:       62.5%;
+	min-width:   500px;
+	margin-top:  2%;
+	margin-left: 22.5%;
+    display:     block;
+    position:    fixed;
+}
+#social_list {
+	top:        0;
+	right:      0;
+	margin:     0;
+	padding:    0;
+	list-style: none;
+	position:   absolute;
+}
+.social_item {
+	float:     left;
+	margin-left: 10px;
+}
+.social_container {
+	height: 40px;
+	width:  40px;
+}
+.social_link {
+	height: 40px;
+	width:  40px;
+	float:  left;
+}
 
 #left_panel {
 	height:       93%;
@@ -35,37 +77,13 @@ h2, h4 {
 	border-right: 1px solid #ccc;
 	position:     fixed;
 }
-
 #profile_photo {
 	width:      100%;
 	border:     2px solid #fff;
 	box-shadow: 1px 1px 10px #666;
 }
 
-#social_list {
-	list-style: none;
-	padding: 0;
-}
-
-#social_container {
-	height:        40px;
-	margin-bottom: 5px;
-	position:      relative;
-}
-
-.social_link {
-	height: 40px;
-	width: 40px;
-}
-.social_edito {
-	bottom:      0;
-	margin-left: 50px;
-	font-size:   14px;
-	color:       #ccc;
-	position:    absolute;
-}
-
 #main_view {
-	height:      2000px;
+	height:      100px;
 	margin-left: 24.5%;
 }

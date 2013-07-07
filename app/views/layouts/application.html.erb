@@ -7,6 +7,31 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div id='menu_bar'>
+		<% @social_networks = [
+		  { name: 'facebook',    color: '#3b599b', edito: "don't forget real friends",  alt: 'Facebook',  url: 'http://www.facebook.com/arnaud.besnier' },
+		  { name: 'twitter',     color: '#FF0000', edito: 'say something',              alt: 'Twitter',   url: 'http://twitter.com/arnaud_besnier' },
+		  { name: 'google_plus', color: '#FF0000', edito: 'circle some great articles', alt: 'Google+',   url: 'https://plus.google.com/u/1/108371618713321616542/posts' },
+		  { name: 'instagram',   color: '#FF0000', edito: 'capture life moments',       alt: 'Instagram', url: 'http://instagram.com/ribens' },
+		  { name: 'linkedin',    color: '#FF0000', edito: 'skills for head hunters',    alt: 'LinkedIn',  url: 'http://fr.linkedin.com/in/arnaudbesnier' },
+		  { name: 'github',      color: '#FF0000', edito: 'hackers playground',         alt: 'Github',    url: 'https://github.com/arnaudbesnier' }
+		]%>
+		<ul id='social_list'>
+		<% @social_networks.each do |social_network| %>
+			<li class='social_item'><%= render partial: "partials/social_network_link", locals: social_network %></li>
+		<% end %>
+			<!--<li>Pinterest</li>-->
+			<!--<br/>
+			<li style='color:orange;'>Soundcloud (recycle sounds)</li>
+			<li style='color:pink;'>Dribble (get visual inspiration)</li>-->
+		</ul>
+	</div>
+	<div id='left_panel'>
+	<%= tag(:img, id: 'profile_photo', alt: 'no smile', src: asset_path("face.jpg")) %>
+	<h2>Arnaud Besnier</h2>
+	<h4>Software Developer</h4>
+	<!--<p>This is me (no CV), You can find me:<p>-->
+</div>
 
 <%= yield %>
 
