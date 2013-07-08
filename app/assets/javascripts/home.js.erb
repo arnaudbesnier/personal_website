@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	<% ['facebook', 'twitter', 'google_plus', 'soundcloud',
-		'instagram', 'linkedin', 'github'].each do |network| %>
+		'instagram', 'dribbble', 'linkedin', 'github'].each do |network| %>
 		$('#<%= network %>_link').mouseover(function() {
 			$(this).attr("src", "<%= asset_path("social_networks/#{network}_on.png") %>");
 		});

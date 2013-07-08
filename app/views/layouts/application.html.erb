@@ -17,6 +17,7 @@
 		  { name: 'google_plus', edito: 'circle some great articles', alt: 'Google+',    url: 'https://plus.google.com/u/1/108371618713321616542/posts' },
 		  { name: 'soundcloud',  edito: 'recycle sounds',             alt: 'Soundcloud', url: 'http://soundcloud.com/arnaud_besnier' },
 		  { name: 'instagram',   edito: 'capture life moments',       alt: 'Instagram',  url: 'http://instagram.com/ribens' },
+		  { name: 'dribbble',    edito: 'get visual inspiration',     alt: 'Dribbble',   url: 'http://dribbble.com/arnaud_besnier' },
 		  { name: 'linkedin',    edito: 'skills for head hunters',    alt: 'LinkedIn',   url: 'http://fr.linkedin.com/in/arnaudbesnier' },
 		  { name: 'github',      edito: 'hackers playground',         alt: 'Github',     url: 'https://github.com/arnaudbesnier' }
 		]%>
@@ -24,9 +25,6 @@
 		<% @social_networks.each do |social_network| %>
 			<li class='social_item'><%= render partial: "partials/social_network_link", locals: social_network %></li>
 		<% end %>
-			<!--<li>Pinterest</li>-->
-			<!--<br/>
-			<li style='color:pink;'>Dribble (get visual inspiration)</li>-->
 		</ul>
 	</div>
 	<div id='left_panel'>
