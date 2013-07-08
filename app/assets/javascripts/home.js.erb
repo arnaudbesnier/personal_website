@@ -1,38 +1,11 @@
 $(document).ready(function() {
-	$('#facebook_link').mouseover(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/facebook_on.png') %>");
-	});
-	$('#facebook_link').mouseout(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/facebook_off.png') %>");
-	});
-	$('#twitter_link').mouseover(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/twitter_on.png') %>");
-	});
-	$('#twitter_link').mouseout(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/twitter_off.png') %>");
-	});
-	$('#google_plus_link').mouseover(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/google_plus_on.png') %>");
-	});
-	$('#google_plus_link').mouseout(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/google_plus_off.png') %>");
-	});
-	$('#instagram_link').mouseover(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/instagram_on.png') %>");
-	});
-	$('#instagram_link').mouseout(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/instagram_off.png') %>");
-	});
-	$('#linkedin_link').mouseover(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/linkedin_on.png') %>");
-	});
-	$('#linkedin_link').mouseout(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/linkedin_off.png') %>");
-	});
-	$('#github_link').mouseover(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/github_on.png') %>");
-	});
-	$('#github_link').mouseout(function() {
-		$(this).attr("src", "<%= asset_path('social_networks/github_off.png') %>");
-	});
+	<% ['facebook', 'twitter', 'google_plus', 'soundcloud',
+		'instagram', 'linkedin', 'github'].each do |network| %>
+		$('#<%= network %>_link').mouseover(function() {
+			$(this).attr("src", "<%= asset_path("social_networks/#{network}_on.png") %>");
+		});
+		$('#<%= network %>_link').mouseout(function() {
+			$(this).attr("src", "<%= asset_path("social_networks/#{network}_off.png") %>");
+		});
+	<% end %>
 })
