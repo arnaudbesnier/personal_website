@@ -8,4 +8,11 @@ $(document).ready(function() {
 			$(this).attr("src", "<%= asset_path("social_networks/#{network}_off.png") %>");
 		});
 	<% end %>
+
+	$('#profile_photo').mouseover(function() {
+		$(this).attr("src", "<%= asset_path('face_on.jpg') %>");
+	});
+	$('#profile_photo').mouseout(function() {
+		$(this).attr("src", "<%= asset_path('face_off.jpg') %>");
+	});
 })
