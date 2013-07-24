@@ -122,3 +122,16 @@ ol > li > span {
 	position:     absolute;
 	z-index:      1;
 }
+
+#loader_container {
+	height:   70%;
+	width:    49%;
+	margin:   250px 39% 0 15%;
+	position: absolute;
+	display:  none;
+}
+.loader {
+	height: 40px;
+	width:  40px;
+	margin: auto;
+}
