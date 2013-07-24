@@ -15,4 +15,8 @@ $(document).ready(function() {
 	$('#profile_photo').mouseout(function() {
 		$(this).attr("src", "<%= asset_path('face_off.jpg') %>");
 	});
+	$('#panel_links li').click(function() {
+		$('#loader_container').toggle();
+		$('#main_view').toggle();
+	});
 })
