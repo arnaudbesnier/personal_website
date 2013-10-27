@@ -100,6 +100,20 @@ p {
 	margin-right: 0;
 }
 
+.description_icon {
+	float:   left;
+	padding: 4px 6px 0 0;
+}
+
+#photo {
+	border:     10px solid #fff;
+	box-shadow: 1px 1px 10px #666;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
 /* Footer */
 
 .footer {
@@ -127,15 +141,6 @@ p {
 	height:        30px;
 	width:         30px;
 	border-radius: 5px;
-}
-
-#photo {
-	border:     10px solid #fff;
-	box-shadow: 1px 1px 10px #666;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
 }
 
 /* Responsive: Portrait tablets and up */
