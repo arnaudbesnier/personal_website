@@ -15,6 +15,24 @@ div id='main_view'
       subtitle:      'Meet the motorbike I dream of',\
       aperture:      'f/11',\
       shutter_speed: '1/25',\
-      place:         'New York City (NY)',\
+      place:         'New York City, NY',\
       date:          'October 16, 2013',\
+    }
+  = render partial: 'partials/photo', locals: {\
+      img_src:       asset_path('photos/flatiron.jpg'),\
+      title:         'Flatiron Building',\
+      subtitle:      'Stronger than the wind',\
+      aperture:      'f/5.6',\
+      shutter_speed: '1/200',\
+      place:         'New York, NY',\
+      date:          'September 30, 2013',\
+    }
+  = render partial: 'partials/photo', locals: {\
+      img_src:       asset_path('photos/autumn_providence.jpg'),\
+      title:         'Autumn in Providence',\
+      subtitle:      'Leaves on the bridge',\
+      aperture:      'f/4',\
+      shutter_speed: '1/30',\
+      place:         'Providence, RI',\
+      date:          'October 5, 2013',\
     }
