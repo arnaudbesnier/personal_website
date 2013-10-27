@@ -1,4 +1,14 @@
 div id='main_view'
+  div id='photos_header'
+    p
+    | A guy: a photography beginner
+    p
+    | A camera:
+    a<> href='http://en.wikipedia.org/wiki/Canon_EOS_100D' Canon 100D
+    | (with a Canon EF-S 18-55 STM lens)
+    p
+    | A philosophy: Just raw images, No Photoshop
+
   = render partial: 'partials/photo', locals: {\
       img_src: asset_path('photos/ducati.jpg'),\
       title:         'Custom Ducati Sport 1000',\

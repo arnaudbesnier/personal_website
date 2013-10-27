@@ -54,6 +54,10 @@ h6 {
 	margin:      0;
 }
 
+p {
+	margin: 0;
+}
+
 /* Header */
 
 .header {
@@ -65,6 +69,12 @@ h6 {
 	margin-top:    0;
 	margin-bottom: 0;
 	line-height:   40px;
+}
+
+#photos_header {
+	padding-bottom: 10px;
+	margin-bottom:  20px;
+	border-bottom:  $border_style;
 }
 
 /* Container */
