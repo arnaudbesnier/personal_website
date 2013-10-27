@@ -1,11 +1,10 @@
 div id='main_view'
-  h1 class='marker_note'
-    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum quam id purus pharetra convallis.
-    font<> color='red' There is nothing here... I know.
-    | Morbi dignissim, felis quis aliquam laoreet, elit dolor blandit massa, sit amet congue eros dui dapibus lectus. Maecenas mollis fringilla vehicula. Quisque varius porttitor velit, ullamcorper vehicula magna ullamcorper non. Mauris ornare eu justo nec porta. Nunc facilisis dictum justo , nec
-    font<> color='red' Things will change soon!
-    | blandit lectus porta id. Nullam malesuada massa vel commodo tempor. Nunc accumsan sit amet nulla interdum pretium. Pellentesque sed metus porttitor, rutrum ipsum a, condimentum lectus. Cras porta pharetra velit.
-
-div id='loader_container'
-  div class='loader'
-    = tag(:img, class: 'loader', alt: 'Chargement', src: asset_path('loader.gif'))
+  = render partial: 'partials/photo', locals: {\
+      img_src: asset_path('photos/ducati.jpg'),\
+      title:         'Custom Ducati Sport 1000',\
+      subtitle:      'Meet the motorbike I dream of',\
+      aperture:      'f/11',\
+      shutter_speed: '1/25',\
+      place:         'New York City (NY)',\
+      date:          'October 16, 2013',\
+    }

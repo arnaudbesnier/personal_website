@@ -1,0 +1,10 @@
+= tag(:img, id: 'photo', alt: title, src: img_src)
+div style='margin: 8px 5px 50px;'
+  h4 style='margin-top:0; text-align:right;' = title
+  h6 style='margin:0 0 5px; text-align:right; font-style:italic;' = "- #{subtitle} -"
+  div style='width:49%; float:left;'
+    h6 = "Aperture: #{aperture}"
+    h6 = "Shutter speed: #{shutter_speed}"
+  div style='margin-left: 2%; width:49%; float:left; text-align:right;'
+    h6 = place
+    h6 = date

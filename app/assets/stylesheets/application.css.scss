@@ -16,7 +16,8 @@
 @import "bootstrap-responsive";
 
 $main_font_family:  'Quicksand', sans-serif;
-$main_font_color:   #666;
+$font_color_main:   #666;
+$font_color_second: #aaa;
 $draft_font_family: 'Permanent Marker', cursive;
 $draft_font_color:  #999;
 
@@ -33,7 +34,7 @@ h1.marker_note {
 }
 
 h3, h4 {
-	color: $main_font_color;
+	color: $font_color_main;
 }
 
 h3 {
@@ -47,6 +48,15 @@ h4 {
 	font-weight:   normal;
 	margin-top:    2px;
 	margin-bottom: 0;
+}
+
+h6 {
+	font-family: $main_font_family;
+	color:       $font_color_second;
+	font-size:   12px;
+	font-weight: normal;
+	line-height: 120%;
+	margin:      0;
 }
 
 /* Header */
@@ -127,6 +137,15 @@ h4 {
 	height:        30px;
 	width:         30px;
 	border-radius: 5px;
+}
+
+#photo {
+	border:     10px solid #fff;
+	box-shadow: 1px 1px 10px #666;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
 }
 
 /* Responsive: Portrait tablets and up */
