@@ -1,7 +1,8 @@
 Personal Website
 ================
 
-Trying some technos :
+Trying some technos:
+- Bootstrap (responsiveness)
 - Slim (http://slim-lang.com/)
 - Google Fonts (http://www.google.com/fonts)
 - SCSS
