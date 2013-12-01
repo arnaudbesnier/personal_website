@@ -3,6 +3,7 @@ Personal Website
 
 Trying some technos :
 - Slim (http://slim-lang.com/)
+- Google Fonts (http://www.google.com/fonts)
 - SCSS
 
 Contains:
