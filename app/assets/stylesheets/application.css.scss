@@ -133,6 +133,11 @@ p {
 		border-radius: 50%;
 	}
 
+	#panel_menu {
+		margin-top: 20px;
+		background-color: black;
+	}
+
 	#main_view {
 		margin-left:  29%;
 		margin-right: 0;
@@ -163,13 +168,21 @@ p {
 	}
 
 	#panel {
-		width: 100%;
+		width:         100%;
+		overflow:      auto;
+		margin-bottom: 20px;
 	}
 
 	#profile_photo {
 		margin-left:   -20%;
 		width:         40%;
 		border-radius: 50%;
+		float:         left;
+	}
+
+	#panel_menu {
+		margin-left: 25%;
+		margin-top:  20px;
 	}
 
 	#main_view {
