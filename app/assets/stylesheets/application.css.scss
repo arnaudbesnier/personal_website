@@ -56,8 +56,11 @@ p {
 /* Header */
 
 .header {
-	margin-bottom: 20px;
 	border-bottom: $border_style;
+}
+
+.nav {
+	margin-bottom: 0;
 }
 
 .header h3 {
@@ -116,6 +119,10 @@ p {
 		padding-bottom: 20px;
 	}
 
+	.header {
+		margin-bottom: 20px;
+	}
+
 	/* Container */
 
 	.container {
@@ -159,6 +166,10 @@ p {
 		padding: 5px 0 20px 0;
 	}
 
+	.header {
+		margin-bottom: 0px;
+	}
+
 	/* Container */
 
 	.container {
@@ -167,9 +178,12 @@ p {
 	}
 
 	#panel {
-		width:         100%;
-		overflow:      auto;
-		margin-bottom: 20px;
+		width:          100%;
+		overflow:       auto;
+		padding-top:    20px;
+		padding-bottom: 20px;
+		border-bottom:  $border_style;
+		margin-bottom:  10px;
 	}
 
 	#profile_photo {
@@ -181,7 +195,6 @@ p {
 
 	#panel_menu {
 		margin-left: 25%;
-		margin-top:  20px;
 	}
 
 	#main_view {
