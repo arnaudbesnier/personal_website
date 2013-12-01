@@ -1,7 +1,9 @@
 Personal Website
 ================
 
-Trying some technos
+Trying some technos :
+- Slim (http://slim-lang.com/)
+- SCSS
 
 Contains:
 - Links on my social networks life
