@@ -74,11 +74,6 @@ p {
 
 /* Container */
 
-#profile_photo {
-	width:         100%;
-	border-radius: 50%;
-}
-
 .description_icon {
 	float:   left;
 	padding: 4px 6px 0 0;
@@ -133,6 +128,11 @@ p {
 		float: left;
 	}
 
+	#profile_photo {
+		width:         100%;
+		border-radius: 50%;
+	}
+
 	#main_view {
 		margin-left:  29%;
 		margin-right: 0;
@@ -163,8 +163,13 @@ p {
 	}
 
 	#panel {
-		display: none;
-		width:   0%;
+		width: 100%;
+	}
+
+	#profile_photo {
+		margin-left:   -20%;
+		width:         40%;
+		border-radius: 50%;
 	}
 
 	#main_view {
