@@ -23,11 +23,6 @@ $draft_font_color:  #999;
 
 $border_style: 1px solid #eee;
 
-body {
-	padding-top:    20px;
-	padding-bottom: 20px;
-}
-
 h3, h4 {
 	color: $font_color_main;
 }
@@ -79,38 +74,14 @@ p {
 
 /* Container */
 
-.container {
-	margin:    0 auto;
-	max-width: 1000px;
-}
-
-#panel {
-	width: 25%;
-	float: left;
-}
-
 #profile_photo {
 	width:         100%;
 	border-radius: 50%;
 }
 
-#main_view {
-	margin-left:  29%;
-	margin-right: 0;
-}
-
 .description_icon {
 	float:   left;
 	padding: 4px 6px 0 0;
-}
-
-#photo {
-	border:             10px solid #fff;
-	box-shadow:         1px 1px 10px #666;
-	box-sizing:         border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing:    border-box;
-	-ms-box-sizing:     border-box;
 }
 
 /* Footer */
@@ -142,6 +113,66 @@ p {
 	border-radius: 5px;
 }
 
-/* Responsive: Portrait tablets and up */
-/* @media screen and (min-width: 768px) {
-} */
+/* Responsive: Everything except smartphones in portrait */
+@media screen and (min-width: 640px) {
+
+	body {
+		padding-top:    20px;
+		padding-bottom: 20px;
+	}
+
+	/* Container */
+
+	.container {
+		margin:    0 auto;
+		max-width: 1050px;
+	}
+
+	#panel {
+		width: 25%;
+		float: left;
+	}
+
+	#main_view {
+		margin-left:  29%;
+		margin-right: 0;
+	}
+
+	#photo {
+		border:             10px solid #fff;
+		box-shadow:         1px 1px 10px #666;
+		box-sizing:         border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:    border-box;
+		-ms-box-sizing:     border-box;
+	}
+}
+
+/* Responsive: Smartphones in portrait (tested on Galaxy S4) */
+@media (max-width: 640px) {
+
+	body {
+		padding: 5px 0 20px 0;
+	}
+
+	/* Container */
+
+	.container {
+		margin: 0 0;
+		border-width: 2;
+	}
+
+	#panel {
+		display: none;
+		width:   0%;
+	}
+
+	#main_view {
+		margin-left:  0;
+		margin-right: 0;
+	}
+
+	#photo {
+		width: 100%;
+	}
+}
