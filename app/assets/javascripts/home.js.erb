@@ -10,13 +10,15 @@ $(document).ready(function() {
 	<% end %>
 
 	$('#profile_photo').mouseover(function() {
-		$(this).attr("src", "<%= asset_path('face_on.jpg') %>");
+		$(this).attr('src', "<%= asset_path('face_on.jpg') %>");
 	});
 	$('#profile_photo').mouseout(function() {
-		$(this).attr("src", "<%= asset_path('face_off.jpg') %>");
+		$(this).attr('src', "<%= asset_path('face_off.jpg') %>");
 	});
 	$('#panel_links li').click(function() {
 		$('#loader_container').toggle();
 		$('#main_view').toggle();
 	});
+	var dest = window.location.pathname.split('/')[1];
+	$('ul.nav li#' + dest).attr('class', 'active');
 })

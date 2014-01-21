@@ -21,6 +21,13 @@ $font_color_second: #aaa;
 $draft_font_family: 'Permanent Marker', cursive;
 $draft_font_color:  #999;
 
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+	background-color: $font_color_second;
+}
+.nav-pills > li > a {
+	color: $font_color_second;
+}
+
 $border_style: 1px solid #eee;
 
 h3, h4 {
