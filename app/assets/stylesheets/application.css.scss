@@ -56,6 +56,12 @@ h6 {
 	margin:      0;
 }
 
+.draft {
+	font-family: $draft_font_family;
+	color:       $draft_font_color;
+	font-size:   36px;
+}
+
 p {
 	margin: 0;
 }
