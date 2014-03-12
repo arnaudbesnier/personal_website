@@ -88,6 +88,15 @@ p {
 	border-bottom:  $border_style;
 }
 
+.resume_title {
+	margin-bottom: 0;
+}
+
+.line {
+	height: 1px;
+	width:  100%;
+}
+
 /* Container */
 
 .description_icon {
@@ -185,6 +194,15 @@ p {
 
 	#title {
 		padding-left: 5px;
+	}
+
+	.resume_title {
+		margin-left: 1%;
+	}
+
+	.line {
+		margin-left:  1%;
+		width:        98%;
 	}
 
 	/* Container */
