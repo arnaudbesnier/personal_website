@@ -93,8 +93,9 @@ p {
 }
 
 .line {
-	height: 1px;
-	width:  100%;
+	height:        1px;
+	width:         100%;
+	margin-bottom: 10px;
 }
 
 /* Container */
@@ -197,6 +198,10 @@ p {
 	}
 
 	.resume_title {
+		margin-left: 1%;
+	}
+
+	.resume_subtitle {
 		margin-left: 1%;
 	}
 
