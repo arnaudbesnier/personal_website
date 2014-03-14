@@ -21,6 +21,14 @@ $font_color_second: #aaa;
 $draft_font_family: 'Permanent Marker', cursive;
 $draft_font_color:  #999;
 
+$resume_color_1:     #958957;
+$resume_color_2:     #38608F;
+$resume_color_2_sub: #5081B9;
+$resume_color_3:     #254160;
+$resume_color_3_sub: #5182BB;
+$resume_color_4:     #779141;
+$resume_color_4_sub: #9CBA5F;
+
 .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
 	background-color: $font_color_second;
 }
@@ -133,6 +141,57 @@ p {
 	width:         30px;
 	border-radius: 5px;
 }
+
+/* Resume */
+
+.resume_subtitle {
+	margin-top: 8px;
+}
+
+#resume > p {
+	padding-left: 20px;
+	font-size:    11px;
+	color:        $font_color_second;
+	line-height:  130%;
+}
+
+.resume_color_1 {
+	color: $resume_color_1;
+}
+
+.resume_color_2 {
+	color: $resume_color_2;
+}
+.resume_line_color_2 {
+	background-color: $resume_color_2;
+}
+
+.resume_color_2_sub {
+	color: $resume_color_2_sub;
+}
+
+.resume_color_3 {
+	color: $resume_color_3;
+}
+.resume_line_color_3 {
+	background-color: $resume_color_3;
+}
+
+.resume_color_3_sub {
+	color: $resume_color_3_sub;
+}
+
+.resume_color_4 {
+	color: $resume_color_4;
+}
+.resume_line_color_4 {
+	background-color: $resume_color_4;
+}
+
+.resume_color_4_sub {
+	color: $resume_color_4_sub;
+}
+
 
 /* Responsive: Everything except smartphones in portrait */
 @media screen and (min-width: 640px) {
