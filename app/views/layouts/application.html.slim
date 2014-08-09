@@ -18,10 +18,12 @@ body
       div id='panel_menu'
         = tag(:img, class: 'description_icon', src: asset_path('items/resume.png'), height: 14, width: 14, alt: 'Job')
         h4 Mobile Apps Lead Developer
-        = tag(:img, class: 'description_icon', src: asset_path('items/shopmium.png'), height: 14, width: 14, alt: 'Shopmium')
-        h4 Shopmium
-        = tag(:img, class: 'description_icon', src: asset_path('items/paris.png'), height: 14, width: 14, alt: 'Paris')
-        h4 Paris
+        a href='https://www.shopmium.com' target='_blank'
+          = tag(:img, class: 'description_icon', src: asset_path('items/shopmium.png'), height: 14, width: 14, alt: 'Shopmium')
+          h4 Shopmium
+        a href='https://www.google.com/maps/place/Paris' target='_blank'
+          = tag(:img, class: 'description_icon', src: asset_path('items/paris.png'), height: 14, width: 14, alt: 'Paris')
+          h4 Paris
 
     = yield
 

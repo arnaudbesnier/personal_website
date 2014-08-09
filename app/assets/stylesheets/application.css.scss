@@ -55,6 +55,11 @@ h4 {
 	margin-bottom: 0;
 }
 
+a > h4:hover {
+	color: $font_color_second;
+	text-decoration: underline;
+}
+
 h6 {
 	font-family: $main_font_family;
 	color:       $font_color_second;
