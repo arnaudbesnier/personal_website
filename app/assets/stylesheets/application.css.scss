@@ -177,6 +177,14 @@ p {
 	color: $resume_color_0;
 }
 
+.resume_color_0 > a {
+	color: $resume_color_0;
+}
+.resume_color_0 > a:hover {
+	color: $resume_color_0;
+	text-decoration: underline;
+}
+
 .resume_color_1 {
 	color: $resume_color_1;
 }
