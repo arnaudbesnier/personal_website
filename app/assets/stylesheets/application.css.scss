@@ -61,12 +61,12 @@ a > h4:hover {
 	text-decoration: underline;
 }
 
-a {
+p > a {
 	color: $font_color_second;
 	text-decoration: underline;
 }
 
-a:hover {
+p > a:hover {
 	color: $font_color_third;
 	text-decoration: underline;
 }
