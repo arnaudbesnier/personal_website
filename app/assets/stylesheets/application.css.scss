@@ -22,11 +22,13 @@ $font_color_third:  #ccc;
 $draft_font_family: 'Permanent Marker', cursive;
 $draft_font_color:  #999;
 
-$resume_color_1:     #958957;
-$resume_color_2:     #38608F;
-$resume_color_2_sub: #5081B9;
-$resume_color_3:     #254160;
-$resume_color_3_sub: #5182BB;
+$resume_color_0:     #958957;
+$resume_color_1:     #4a1e46;
+$resume_color_1_sub: #6e2d68;
+$resume_color_2:     #47426f;
+$resume_color_2_sub: #5b558f;
+$resume_color_3:     #006D90;
+$resume_color_3_sub: #0094c3;
 $resume_color_4:     #779141;
 $resume_color_4_sub: #9CBA5F;
 
@@ -171,8 +173,19 @@ p {
 	line-height:  130%;
 }
 
+.resume_color_0 {
+	color: $resume_color_0;
+}
+
 .resume_color_1 {
 	color: $resume_color_1;
+}
+.resume_line_color_1 {
+	background-color: $resume_color_1;
+}
+
+.resume_color_1_sub {
+	color: $resume_color_1_sub;
 }
 
 .resume_color_2 {
