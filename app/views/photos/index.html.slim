@@ -13,6 +13,15 @@ div id='main_view'
     | ― Ansel Adams
 
   = render partial: 'partials/photo', locals: {\
+      img_src:       asset_path('photos/gili.jpg'),\
+      title:         'Gili Island',\
+      subtitle:      'Tortules heaven',\
+      aperture:      'f/8',\
+      shutter_speed: '1/125',\
+      place:         'Gili Trawangan, Indonesia',\
+      date:          'October 22, 2014',\
+    }
+  = render partial: 'partials/photo', locals: {\
       img_src:       asset_path('photos/ducati.jpg'),\
       title:         'Custom Ducati Sport 1000',\
       subtitle:      'Meet the motorbike I dream of',\
