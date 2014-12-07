@@ -6,12 +6,16 @@ div id='main_view'
         h6 class='resume_color_0' 19 Passage Lathuille
         h6 class='resume_color_0' 75018 PARIS
         h6 class='resume_color_0' FRANCE
-        h6 class='resume_color_0' +337 87 03 06 60
+        h6 class='resume_color_0' +33 7 87 03 06 60
         h6 class='resume_color_0'
           a href='mailto:arnaudibesnier@gmail.com' arnaudibesnier@gmail.com
       div style='width: 50%; height: 105px; float: left;'
         a href='http://ensimag.grenoble-inp.fr' target='_blank'
           = tag(:img, style: 'float: right; height:100%; vertical-align: middle;', src: asset_path('resume/logo_ensimag.jpg'), alt: 'Grenoble INP - Ensimag')
+
+    = tag(:img, src: asset_path('items/pdf.png'), height: 14, width: 14, style: 'padding: 0 3px 3px 0' , alt: 'Job')
+    = link_to 'Download my PDF resume', 'resume/20141207.pdf', { class: 'links' }
+
     h3 class='resume_title resume_color_1' EDUCATION
     div class='line resume_line_color_1'
     h6 class='resume_subtitle resume_color_1_sub' MASTER of Science in Computer Science | 2007-2010

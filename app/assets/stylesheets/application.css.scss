@@ -63,6 +63,16 @@ a > h4:hover {
 	text-decoration: underline;
 }
 
+.links {
+	color: $font_color_second;
+	text-decoration: underline;
+}
+
+.links:hover {
+	color: $font_color_third;
+	text-decoration: underline;
+}
+
 p > a {
 	color: $font_color_second;
 	text-decoration: underline;
