@@ -240,6 +240,20 @@ p {
 }
 
 
+/* Activity */
+
+.date {
+	font-family: $main_font_family;
+	color:       $font_color_third;
+}
+
+.post {
+	font-family:   $main_font_family;
+	text-indent:   40px;
+	margin-bottom: 10px;
+}
+
+
 /* Responsive: Everything except smartphones in portrait */
 @media screen and (min-width: 640px) {
 
