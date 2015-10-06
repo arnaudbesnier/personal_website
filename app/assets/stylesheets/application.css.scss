@@ -41,11 +41,11 @@ $resume_color_4_sub: #9CBA5F;
 
 $border_style: 1px solid #eee;
 
-h3, h4 {
+h2, h3, h4 {
 	color: $font_color_main;
 }
 
-h3 {
+h2, h3 {
 	font-family: $main_font_family;
 	font-weight: normal;
 }
@@ -245,6 +245,11 @@ p {
 .date {
 	font-family: $main_font_family;
 	color:       $font_color_third;
+}
+
+.quote {
+	font-family: $main_font_family;
+	color:       $font_color_second;
 }
 
 .post {
