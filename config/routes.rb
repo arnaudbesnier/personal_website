@@ -2,6 +2,7 @@ PersonalWebsite::Application.routes.draw do
 
   root to: redirect('/photos')
 
+  resources :news,     only: [:index]
   resources :photos,   only: [:index]
   # resources :posts,    only: [:index]
   resources :activity, only: [:index]
