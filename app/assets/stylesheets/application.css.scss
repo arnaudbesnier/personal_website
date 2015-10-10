@@ -58,6 +58,10 @@ h4 {
 	margin-bottom: 0;
 }
 
+li {
+	font-family: $main_font_family;
+}
+
 a > h4:hover {
 	color: $font_color_second;
 	text-decoration: underline;
