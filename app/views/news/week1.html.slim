@@ -1,0 +1,95 @@
+div id='main_view'
+  div style='min-height: 400px;'
+    div id='news'
+      p class='date'
+        i 2 Octobre 2015
+      h2 Toronto - WEEK #1
+      p class='quote'
+        i<>
+          a href='https://en.wikipedia.org/wiki/Landlord' target='_blank' Landlord
+          ': A landlord is the owner of a house, apartment, condominium, land or real estate which is rented or leased to an individual or business, who is called a tenant (also a lessee or renter).
+      br
+      h3
+        ' Arrivés avec l’été Indien
+      p class='post'
+        'En arrivant ici, la température a été une bonne surprise. Il faisait vraiment meilleur qu'à Paris. Le fameux été indien ? On a entendu dire qu'ici il faisait froid du 1er Octobre au 1er Mai. On a sourit sur le coup mais le 30 septembre au soir, on a comprit… Ça s’est pas mal rafraîchi et ça n’ira pas en s’arrangeant.
+      h3
+        ' De Little Italy...
+      = render partial: 'partials/post_picture', locals: {\
+          img_src:       asset_path('news/week1/little_italy.jpg'),\
+          title:         'Little Italy',
+        }
+
+      p class='post'
+        'Le voyage entre l’aéroport et notre chambre réservée sur Airbnb a été assez folklorique. Il a fallu d’abord passer la douane, ça s’est fait sans problèmes pour moi (le touriste), ça a été plus long pour Sophia qui a du récupérer son “working-holiday” visa.
+      p class='post'
+        'Ensuite on a pris la direction des transports. Il a fallu trouver comment acheter des tickets de transports. Une fois avoir trouvé le bon guichet, j’ai commandé 2 tickets pour aller sur Toronto. Je paie avec mes billets flambants neufs. La dame me rend la monnaie et un ticket qui ressemble plus à un reçu qu’à un ticket de transport. Je ne me pose pas plus de questions. A $2.80 le ticket, c’est plutôt donné comparé aux 7 à 12 € qu’il faut débourser pour rejoindre Paris depuis les aéroports. A l’arrivé du bus, les torontois très gentils voyant la quantité de bagages que l’on avait avec nous, nous ont laissé monter en premier. En tendant le “ticket” au chauffeur du bus, on voit que le type fait une tête bizarre. J’entends alors un des passager qui montait énoncer le mot “token”. Je regarde la monnaie dans mes poches. Ne connaissant pas du tout la monnaie locale, je n’avais pas fait attention que parmi les pièces de monnaie, il y avait 2 jetons, les fameux “tokens”... (à droite sur la photo)
+      = render partial: 'partials/post_picture', locals: {\
+          img_src:       asset_path('news/week1/tokens.jpg'),\
+          title:         'TTC tokens',
+        }
+      p class="post"
+        'En fait, pour obtenir son ticket de transport, il faut insérer son “token” dans une petite boite à l'entrée en échange de quoi le chauffeur nous donne un ticket papier datant d’un autre temps. Rigolo !
+      p class="post"
+        'Après un voyage en bus, nous prenons le "subway" (métro) pour rejoindre Little Italy. Une fois arrivés à notre station, en l'absence de taxi, il a fallu traîner nos sacs à pied sur 3 ou 4 blocks pour arriver jusqu’à la maison de notre hôte Airbnb. Il faut être en forme pour trainer environ 70 kg d’affaires sur 800m !
+      p class="post"
+        'Une fois installés temporairement, la priorité pour nous, ici, a évidemment été de chercher notre espace de vie pour l'année à venir. On s'est donc mis à regarder sur les sites les plus connus (tous plus moches les uns que les autres) :
+        ul
+          li
+            a href='http://toronto.fr.craigslist.ca' target='_blank' Craigslist
+          li
+            a href='http://viewit.ca' target='_blank'Viewit
+          li
+            a href='http://kijiji.ca' target='_blank'Kijiji
+      p class="post"
+        'Après avoir fait quelques visites, on s'est vite rendu compte que l'on voulait vivre dans le centre de Toronto pour vivre l'expérience à fond et tant qu'à faire vivre dans un "condo".
+      p class="post"
+        'Toronto est l'une des villes du continent américain qui construit actuellement le plus de gratte-ciels. En théorie il devrait y avoir du choix. Et c’est vrai ! Le problème c'est qu'il y aussi beaucoup de demande. On a visité en majorité des appartements tous neuf, jamais habités et à des hauteurs vertigineuses pour les parisiens que nous étions. Les parties communes sont toujours en travaux, et plus on monte dans les étages moins c'est avancé (Normal ça progresse de bas en haut, l'inverse serait étonnant hein).
+      p class="post"
+        'La recherche d'appartement ici est un peu particulière. Je crois qu'ici les agents immobiliers sont les seuls à avoir accès à la base de données des appartements mis en location. Du coup, c'est très rarement un particulier qui met en location son bien. Il y a au moins 2 intermédiaires entre le "tenant" (locataire) et le "landlord" (propriétaire). Il y a les agents qui travaillent avec les gens comme nous et qui nous proposent des appartements en fonction de nos critères et les agents qui travaillent avec les propriétaires pour leur fournir un bon locataire. Il en résulte une opacité remarquable. Et pour nous qui sommes pressés de trouver quelque chose c'est un peu frustrant...
+      h3
+        ' ... à Entertainment District
+      = render partial: 'partials/post_picture', locals: {\
+          img_src:       asset_path('news/week1/entertainment_district.jpg'),\
+          title:         'Entertainment District',
+        }
+
+      p class="post"
+        'On s'est retrouvé à visiter des appartements très sympas mais qui, dès le soir même, étaient déjà loués. 5 ou 6 appartements nous sont passés sous le nez, on a compris que c'était le rush...
+      p class="post"
+        'Après avoir visité 15 à 20 appartements dans différents buildings, et s'être baladés dans différents quartiers, on a su que l'on voulait habiter dans Entertainment District, un quartier plutôt jeune/aisé/animé. Un condo en fin de construction nous a particulièrement attiré, le King Charlotte au 11 Charlotte Street.
+      p class="post"
+        'Les apparts partaient comme des petits pains dans ce building, on a décidé de se positionner rapidement sur l'unit 903 (9 pour l'étage et 03 pour le numéro d'appart, c'est la même norme partout). Un dossier nous passe finalement devant. On s'accroche pour se positionner les units 2004 et 1204. Finalement c'est pour l'unit 2004 que l'on est acceptés. Ça sera donc notre lieu de vie à Toronto ! Pour ceux qui suivent, c'est donc au 20ème étage.
+        br
+        br
+        = render partial: 'partials/post_picture', locals: {\
+          img_src:       asset_path('news/week1/apartment.jpg'),\
+          title:         'Vue depuis notre balcon',
+        }
+      h3
+        'Petit retour sur la recherche d’appartements
+      p class="post"
+        'On nous avait vendu que trouver un logement au Canada était plutôt facile. Certes nous avons trouvé en 8 jours, mais notre expérience ne nous a pas vraiment montré ça. Plusieurs choses qui pourraient expliquer cela :
+        ul
+          li
+            'on est à Toronto, il y a probablement beaucoup de demande
+          li
+            'on s'est attaqués à des condos tout neufs, on a voulu la crème
+          li
+            'on a cherché en plein centre pour vivre l’expérience à fond, mais forcément ça attire plus de monde
+          li
+            'on est des "newcomers" (nouveaux arrivants), pas facile de convaincre les propriétaires de notre capacité à payer les loyers
+      p class="post"
+        'Les propriétaires ici demandent globalement 2 choses pour s'assurer que le locataire est fiable :
+        ul
+          li
+            'employment letter - ouf, ça j'ai :)
+          li
+            'credit check - ça on n'a pas :(
+      p class="post"
+        'Le "credit check" est l'élément le plus important. De ce que j'en ai compris, c'est une note attribuée à vos comptes bancaires en fonction de si vous payez régulièrement vos factures, si vous êtes endettés, si vous êtes souvent ou non à découvert... En gros elle détermine si vous êtes tout noir ou tout blanc (cf. Les animaux malades de la peste de La Fontaine).
+      p class="post"
+        'Comme nous n'avons aucun historique bancaire ici, le credit check n'a pas lieu d'être. Du coup, pour compenser ce manque, et en toute illégalité bien sûr, nous devons proposer de payer de 2 à 4 mois d'avance (en plus des first + last months réglementaires). Mais on ne peut pas faire autrement si on veut entrer dans la "compétition". Il faut nécessairement avoir un peu d’argent de côté. Pas facile quand en plus il faut jongler avec les transferts d’argents depuis la France vers notre nouveau compte Canadien (qui peuvent prendre 3 jours).
+      p class="post"
+        'Bref, le Canada est, certes, une terre d’accueil mais nous nous sommes positionnés dans un milieu un peu "hostile" pour les nouveaux que nous sommes !
+      br
