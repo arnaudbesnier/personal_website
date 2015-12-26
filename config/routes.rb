@@ -9,6 +9,7 @@ PersonalWebsite::Application.routes.draw do
 
   get 'news/week1', to: 'news#weekOne'
   get 'news/week4', to: 'news#weekFour'
+  get 'news/week12', to: 'news#weekTwelve'
 
   # WARNING: keep this at the bottom of the file
   match '*path' => redirect('/news')

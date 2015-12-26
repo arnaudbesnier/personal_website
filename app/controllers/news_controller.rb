@@ -8,4 +8,8 @@ class NewsController < ApplicationController
     render 'news/week4'
   end
 
+  def weekTwelve
+    render 'news/week12'
+  end
+
 end
