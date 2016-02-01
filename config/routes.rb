@@ -7,9 +7,10 @@ PersonalWebsite::Application.routes.draw do
   resources :blog,   only: [:index]
   resources :resume, only: [:index]
 
-  get 'news/week1', to: 'news#weekOne'
-  get 'news/week4', to: 'news#weekFour'
-  get 'news/week12', to: 'news#weekTwelve'
+  get 'news/2015/september', to: 'news#september2015'
+  get 'news/2015/october', to: 'news#october2015'
+  get 'news/2015/december', to: 'news#december2015'
+  get 'news/2016/january', to: 'news#january2016'
 
   # WARNING: keep this at the bottom of the file
   match '*path' => redirect('/news')

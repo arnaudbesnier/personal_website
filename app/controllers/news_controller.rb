@@ -1,15 +1,19 @@
 class NewsController < ApplicationController
 
-  def weekOne
-    render 'news/week1'
+  def september2015
+    render 'news/september2015'
   end
 
-  def weekFour
-    render 'news/week4'
+  def october2015
+    render 'news/october2015'
   end
 
-  def weekTwelve
-    render 'news/week12'
+  def december2015
+    render 'news/december2015'
+  end
+
+  def january2016
+    render 'news/january2016'
   end
 
 end
