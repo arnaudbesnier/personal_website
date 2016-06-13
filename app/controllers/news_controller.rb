@@ -16,4 +16,8 @@ class NewsController < ApplicationController
     render 'news/january2016'
   end
 
+  def june2016
+    render 'news/june2016'
+  end
+
 end
