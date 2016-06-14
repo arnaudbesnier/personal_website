@@ -9,8 +9,8 @@ body
           a href='news' News
         li id='photos'
           a href='photos' Photos
-        li id='blog'
-          a href='blog' Blog
+        / li id='blog'
+        /  a href='blog' Blog
         li id='resume'
           a href='resume' Resume
       h3 id='title' Arnaud Besnier
@@ -18,13 +18,13 @@ body
     div id='panel'
       = tag(:img, id: 'profile_photo', alt: 'me, Bob and Sully', src: asset_path("face_off.jpg"))
       div id='panel_menu'
-        a href='https://itunes.apple.com/fr/app/shopmium-promotions-privees/id453007855' target='_blank'
+        a href='https://www.forestadmin.com' target='_blank'
           = tag(:img, class: 'description_icon', src: asset_path('items/resume.png'), height: 14, width: 14, alt: 'Job')
-          h4 Mobile Apps Lead Dev
-        a href='https://www.shopmium.com' target='_blank'
-          = tag(:img, class: 'description_icon', src: asset_path('items/shopmium.png'), height: 14, width: 14, alt: 'Shopmium')
-          h4 Shopmium
-        a href='https://www.google.com/maps/place/Paris' target='_blank'
+          h4 Full Stack Developer
+        / a href='https://www.shopmium.com' target='_blank'
+        /   = tag(:img, class: 'description_icon', src: asset_path('items/shopmium.png'), height: 14, width: 14, alt: 'Shopmium')
+        /   h4 Shopmium
+        a href='https://www.google.com/maps/place/Toronto' target='_blank'
           = tag(:img, class: 'description_icon', src: asset_path('items/paris.png'), height: 14, width: 14, alt: 'Paris')
           h4 Paris - Toronto
 
